@@ -1,7 +1,7 @@
 # codigoexemplokotlin
 Exemplo de código em kotlin que estou fazendo para você ter uma noção de meus conhecimentos
 
-Nele eu estou usando
+Nele eu estou usando o mais próximo ao MVP
 
 1 - Okhttp + um modo genérico de chamada com anotações.
 
@@ -18,7 +18,17 @@ dentro do presenter da classe.
 
 7 - Tenho ao longo do meu tempo a experiência de meu antigo chefe onde utilizavamos uma task personalizada.
 
-8 - Implementando o banco de dados com Anko, porém até o momento que escrevo isto não esta pronto.
+8 - Coloquei um loginterator nas chamadas para ficar mais fácil de ver parametros passados e respostas dos serviços rest
+
+9 - Tenho a fazer um exemplo que tenho onde enviamos uma foto na base64/bytearray para um serviço. Tivemos problema com o tamanho então
+surgiu a ideia de fazer o resize tmb antes de mudaro tipo.
+
+10 - Implementando o banco de dados com Anko, porém até o momento que escrevo isto não esta pronto.
+
+11 - Ainda quero implementar dagger2 porém preciso maior clareza
+
+12 - testes unitários entrarão uma vez o dagger2 configurado.
+
 
 
 
