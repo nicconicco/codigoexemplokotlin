@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Chave copiada do Google API Console -->
+	<!--chave de debug-->
+	<!--<string name="API_KEY">AIzaSyBPS_DJlxGTh96dgPl9brG3oC-ChKg1a9Y</string>-->
+	<string name="API_KEY">AIzaSyCm5baUOG7koWbO2MGbW3AWp1LwKKuoJnw</string>
+</resources>

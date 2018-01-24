@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:focusable="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="196dp">
+
+                <LinearLayout
+                    android:id="@+id/viewTopType"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@drawable/shape_cinza"
+                    android:orientation="horizontal" />
+
+                <ImageView
+                    android:layout_width="176dp"
+                    android:layout_height="176dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/icone_waze" />
+            </FrameLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.nico.projetopadroesnico.Common.View.RobotoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="43dp"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/tNumberCard"
+                        android:lineSpacingExtra="-6.5sp"
+                        android:text="Número da carteirinha"
+                        android:textColor="#8c8c8c"
+                        android:textSize="14.7sp" />
+
+                    <com.nico.projetopadroesnico.Common.View.RobotoEditText
+                        android:id="@+id/etNumberCard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="39dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginTop="-10dp"
+                        android:inputType="numberDecimal"
+                        android:longClickable="true"
+                        android:maxLength="25"
+                        android:maxLines="1"
+                        android:nextFocusForward="@+id/etPassword"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="#474747"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <com.nico.projetopadroesnico.Common.View.RobotoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="43dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="sans-serif"
+                        android:lineSpacingExtra="-6.5sp"
+                        android:text="Senha"
+                        android:textColor="#8c8c8c"
+                        android:textSize="14.7sp" />
+
+                    <com.nico.projetopadroesnico.Common.View.RobotoEditText
+                        android:id="@+id/etPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="39dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginTop="-10dp"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPassword"
+                        android:letterSpacing="0.08"
+                        android:lineSpacingExtra="-11.9sp"
+                        android:longClickable="true"
+                        android:maxLength="14"
+                        android:nextFocusForward="@+id/rPaciente"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="#474747"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="30dp">
+
+                        <com.nico.projetopadroesnico.Common.View.RobotoTextView
+                            android:id="@+id/btnLoginOkhttp"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:background="@drawable/shape_azul"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:gravity="center"
+                            android:text="@string/login_okhttp"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp">
+
+                        <com.nico.projetopadroesnico.Common.View.RobotoTextView
+                            android:id="@+id/btnLoginRetrofit"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:background="@drawable/shape_azul"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:gravity="center"
+                            android:text="@string/login_retrofit"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <com.nico.projetopadroesnico.Common.View.RobotoTextViewMedium
+                        android:id="@+id/btnNoLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:lineSpacingExtra="-9.9sp"
+                        android:paddingBottom="16dp"
+                        android:paddingTop="16dp"
+                        android:text="@string/no_login"
+                        android:textColor="#474747"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ProjetoPadroesNico</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login">Login With My Task</string>
+    <string name="no_login">No login</string>
+    <string name="msg_aguarde">Aguarde..</string>
+    <string name="login_okhttp">Login Okhttp</string>
+    <string name="login_retrofit">Login Retrofit</string>
+    <string name="anteriores">Anteriores</string>
+    <string name="ontem">Ontem</string>
+    <string name="hoje">Hoje</string>
+    <string name="amanha">Amanha</string>
+    <string name="proximos_2">Proximos</string>
+    <string name="endereco">Endereco</string>
+    <string name="mapa">Mapa</string>
+    <string name="noticias">Notícias</string>
+    <string name="banco">Banco</string>
+    <string name="title_activity_bank">BankActivity</string>
+    <string name="add_new_user">Add new user</string>
+</resources>
