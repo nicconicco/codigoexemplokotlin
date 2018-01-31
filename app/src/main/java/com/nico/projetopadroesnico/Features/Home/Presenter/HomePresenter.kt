@@ -44,6 +44,7 @@ class HomePresenter {
         array.add(master)
         array.add(master)
         array.add(master)
+        array.add(master)
 
         return array
     }

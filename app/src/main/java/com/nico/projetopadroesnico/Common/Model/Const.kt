@@ -30,6 +30,9 @@ object Const {
     const val TO_EXAMES: String = "TO_EXAMES"
     const val TO_REEMBOLSO: String = "TO_REEMBOLSO"
     const val DISTANCIA_SCROLL: Int = 10
+    const val PROTOCOL = "https"
+    const val LANGUAGE = "en"
+    const val BASE_URL_WIKI = "wikipedia.org/w/api.php"
 
     const val IS_PROD: Boolean = true
 //    const val UTILS_PROD = "https://utilsapp-utilsapp-dev.azurewebsites.net/"

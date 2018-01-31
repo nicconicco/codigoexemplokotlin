@@ -17,4 +17,6 @@
     <string name="banco">Banco</string>
     <string name="title_activity_bank">BankActivity</string>
     <string name="add_new_user">Add new user</string>
+    <string name="error">An error occurred. Retry later</string>
+    <string name="injecao_dependencia">DI</string>
 </resources>

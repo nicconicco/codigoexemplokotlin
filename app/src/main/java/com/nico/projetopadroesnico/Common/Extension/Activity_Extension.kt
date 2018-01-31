@@ -8,12 +8,14 @@ import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
 import android.view.View
 import android.content.pm.ApplicationInfo
-
+import com.nico.projetopadroesnico.Application.NicoApplication
 
 
 /**
  * Created by nicolaugalves on 05/09/17.
  */
+val Activity.app: NicoApplication
+    get() = application as NicoApplication
 
 // findViewById + setOnClickListener
 fun AppCompatActivity.onClick(@IdRes viewId: Int, onClick: (v: android.view.View?) -> Unit) {

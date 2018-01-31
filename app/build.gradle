@@ -17,7 +17,7 @@ android {
     }
 
     signingConfigs {
-        Cognizant {
+        NicoExmeplo {
             keyAlias 'nicoexemplo'
             keyPassword 'nicoexemplo'
             storeFile file('C:\\Users\\IT_Admin\\Desktop\\Repositorio\\nico\\app\\nicoexemplokeystore')
@@ -64,8 +64,10 @@ dependencies {
     compile 'com.google.android.gms:play-services-maps:+'
 
     // RX
-    compile "io.reactivex.rxjava2:rxjava:$rxjava2_version"
-    compile "io.reactivex.rxjava2:rxandroid:$rxjava2_version"
+    implementation "android.arch.persistence.room:rxjava2:$architectureComponentsVersion"
+    implementation "io.reactivex.rxjava2:rxjava:$rxjavaVersion"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxandroidVersion"
+    implementation "io.reactivex.rxjava2:rxkotlin:$rxkotlinVersion"
 
     // Coroutines
     compile "org.jetbrains.kotlinx:kotlinx-coroutines-core:0.19.3"
@@ -85,4 +87,13 @@ dependencies {
     //Bus Event
     compile 'org.greenrobot:eventbus:3.0.0'
 
+    //Dagger 2
+    implementation 'com.google.dagger:dagger:2.11'
+    kapt 'com.google.dagger:dagger-compiler:2.11'
+    provided 'javax.annotation:jsr250-api:1.0'
+
+    // JUNit
+    testImplementation 'junit:junit:4.12'
+    //Mockito
+    testImplementation 'org.mockito:mockito-inline:2.11.0'
 }
