@@ -51,9 +51,12 @@
             android:name=".Features.Bank.Activity.UserDetailActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Features.Injection.Activity.InjectActivity"
+        <activity
+            android:name=".Features.Injection.Activity.InjectActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme" ></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Features.InjectionSecondWay.Activity.Dagger2Activity" />
+        <activity android:name=".Features.Mockito.Activity.ChatActivity"></activity>
     </application>
 
 </manifest>
