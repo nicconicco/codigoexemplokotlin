@@ -22,12 +22,12 @@ dentro do presenter da classe.
 
 [ok] 9 - Ainda quero implementar dagger2 porém preciso maior clareza [ Preciso ainda melhorar ele porém já tem na tela DI]
 
+[ok] 10 - Implementando o banco de dados com Anko, porém até o momento que escrevo isto não esta pronto.
+
+[ok]  11 - testes unitários exemplos dom JUnit e mockito ( Mockito + MVP até o momento )
+
 [nok] - Tenho a fazer um exemplo que tenho onde enviamos uma foto na base64/bytearray para um serviço. Tivemos problema com o tamanho então
 surgiu a ideia de fazer o resize tmb antes de mudaro tipo.
-
-[ok] - Implementando o banco de dados com Anko, porém até o momento que escrevo isto não esta pronto.
-
-[nok]  - testes unitários exemplos dom JUnit e mockito ( Mockito + MVP até o momento )
 
 [nok] - Criar uma classe Service que atualize um serviço através do GPS
 
