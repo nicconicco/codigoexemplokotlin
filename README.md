@@ -25,9 +25,9 @@ dentro do presenter da classe.
 [nok] - Tenho a fazer um exemplo que tenho onde enviamos uma foto na base64/bytearray para um serviço. Tivemos problema com o tamanho então
 surgiu a ideia de fazer o resize tmb antes de mudaro tipo.
 
-[nok] - Implementando o banco de dados com Anko, porém até o momento que escrevo isto não esta pronto.
+[ok] - Implementando o banco de dados com Anko, porém até o momento que escrevo isto não esta pronto.
 
-[nok]  - testes unitários entrarão uma vez o dagger2 configurado.
+[nok]  - testes unitários exemplos dom JUnit e mockito ( Mockito + MVP até o momento )
 
 [nok] - Criar uma classe Service que atualize um serviço através do GPS
 
