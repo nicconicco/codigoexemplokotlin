@@ -56,7 +56,8 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity android:name=".Features.InjectionSecondWay.Activity.Dagger2Activity" />
-        <activity android:name=".Features.Mockito.Activity.ChatActivity"></activity>
+        <activity android:name=".Features.Mockito.Activity.ChatActivity" />
+        <activity android:name=".Features.RobotEletronic.Activity.RobotElectronicActivity"></activity>
     </application>
 
 </manifest>
